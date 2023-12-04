@@ -42,7 +42,6 @@ async def check_news_update():
                         line = 'упал'
                     print('Сообщение отправлено')
                     new = 'Курс USD ' + line + ' до:\n₽' + str(usd)
-                    # bot.send_message(689331353, new, parse_mode='Markdown', disable_web_page_preview=True)
                     id = 0
                     while id < len(user_id):
                         bot.send_message(user_id[id], new, parse_mode='Markdown', disable_web_page_preview=True)
