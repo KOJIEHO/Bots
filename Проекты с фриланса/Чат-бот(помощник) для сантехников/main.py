@@ -5,7 +5,9 @@ import sqlite3
 from time import sleep
 from datetime import datetime
 
-bot = telebot.TeleBot('5402164480:AAGsbZIbbukNYQopcCsByE8hmPGY5lJGAgA')
+
+token = ''
+bot = telebot.TeleBot(token)
 admin_id_home = '476520506'
 admin_id_work = '1430274986'
 admin_id_prog_1 = '689331353'
