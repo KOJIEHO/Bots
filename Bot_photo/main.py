@@ -6,7 +6,7 @@ import csv
 import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
-token = '5320075172:AAHuXoYhg3s-TNEdDpo7F9Y_3sPThMtLnNY'
+token = ''
 bot = Bot(token=token)
 db = Dispatcher(bot)
 
